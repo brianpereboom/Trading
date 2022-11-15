@@ -1,0 +1,13 @@
+{
+    "Industrials": "XLI",
+    "Health Care": "XLV",
+    "Information Technology": "XLK",
+    "Communication Services": "XLC",
+    "Consumer Discretionary": "XLY",
+    "Utilities": "XLU",
+    "Financials": "XLF",
+    "Materials": "XLB",
+    "Real Estate": "XLRE",
+    "Consumer Staples": "XLP",
+    "Energy": "XLE"
+}

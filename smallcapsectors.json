@@ -1,0 +1,12 @@
+{
+    "Industrials": "PSCI",
+    "Health Care": "PSCH",
+    "Information Technology": "PSCT",
+    "Communication Services": "PSCU",
+    "Consumer Discretionary": "PSCD",
+    "Utilities": "PSCU",
+    "Financials": "PSCF",
+    "Materials": "PSCM",
+    "Consumer Staples": "PSCC",
+    "Energy": "PSCE"
+}

@@ -1,0 +1,12 @@
+{
+    "Term Structure": {
+        "URL": "https://www.cboe.com/tradable_products/vix/term_structure/",
+        "Header": "/html/body/main/section[2]/div/div/div/div/div[4]/div/div[1]",
+        "Body": "/html/body/main/section[2]/div/div/div/div/div[4]/div/div[2]"
+    },
+    "Futures": {
+        "URL": "https://www.cboe.com/tradable_products/vix/vix_futures/",
+        "Header": "/html/body/main/section[6]/div/div[1]/div/div/div[2]/table/thead",
+        "Body": "/html/body/main/section[6]/div/div[1]/div/div/div[2]/table/tbody/tr[1]"
+    }
+}
