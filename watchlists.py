@@ -13,7 +13,7 @@ def SP500():
         for (symbol, sector) in zip(symbols, sectors):
             sp500[symbol] = sector
         return sp500
-    except:
+    except Exception:
         pprint("Alert: S&P 500 failed to update")
         with open("S&P500.csv") as File:
             Line_Reader = csv.reader(File)
@@ -33,7 +33,7 @@ def SP600():
         for (symbol, sector) in zip(symbols, sectors):
             sp600[symbol] = sector
         return sp600
-    except:
+    except Exception:
         pprint("Alert: S&P 600 failed to update")
         with open("S&P600.csv") as File:
             Line_Reader = csv.reader(File)

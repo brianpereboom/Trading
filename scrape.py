@@ -104,7 +104,7 @@ def futures(browser, futures_json):
                     break
                 body = body[found + 1:]
                 column += 1
-        except:
+        except Exception:
             vix = float(input("VIX: "))
 
     return vix
@@ -161,7 +161,7 @@ def bank_rates():
                     # Convert any numerical value to floats
                     try:
                         data = 0.01 * float(data)
-                    except:
+                    except TypeError:
                         pass
                     bank_rates[country] = data
                 # Increment i for the next column
