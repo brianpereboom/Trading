@@ -6,7 +6,8 @@ import time
 
 from pprint import pprint
 
-ACCOUNT_NUMBER = '455788494'
+# Enter your account number here
+ACCOUNT_NUMBER = ''
 
 # Create a new instance of the client and login
 def init():
